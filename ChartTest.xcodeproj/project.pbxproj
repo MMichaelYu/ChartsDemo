@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C5B25A71F205B9600E02F97 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B25A61F205B9600E02F97 /* Coin.swift */; };
 		4C98E3081F204DDF008DE4BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98E3071F204DDF008DE4BF /* AppDelegate.swift */; };
 		4C98E30A1F204DDF008DE4BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98E3091F204DDF008DE4BF /* ViewController.swift */; };
 		4C98E30D1F204DDF008DE4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C98E30B1F204DDF008DE4BF /* Main.storyboard */; };
 		4C98E30F1F204DDF008DE4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C98E30E1F204DDF008DE4BF /* Assets.xcassets */; };
 		4C98E3121F204DDF008DE4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C98E3101F204DDF008DE4BF /* LaunchScreen.storyboard */; };
+		6765DF57F6512B62A53187CF /* Pods_ChartTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BD32E2C72B93BCA582E934 /* Pods_ChartTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C5B25A61F205B9600E02F97 /* Coin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coin.swift; path = ../Coin.swift; sourceTree = "<group>"; };
 		4C98E3041F204DDF008DE4BF /* ChartTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C98E3071F204DDF008DE4BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C98E3091F204DDF008DE4BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		4C98E30E1F204DDF008DE4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C98E3111F204DDF008DE4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C98E3131F204DDF008DE4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BF51D8284CC415B6308E5C /* Pods-ChartTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartTest/Pods-ChartTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D77F52A5131BAC1FA2D015D8 /* Pods-ChartTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartTest/Pods-ChartTest.release.xcconfig"; sourceTree = "<group>"; };
+		E1BD32E2C72B93BCA582E934 /* Pods_ChartTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6765DF57F6512B62A53187CF /* Pods_ChartTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C2C4DB4B7FA458C6750C177 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF51D8284CC415B6308E5C /* Pods-ChartTest.debug.xcconfig */,
+				D77F52A5131BAC1FA2D015D8 /* Pods-ChartTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4C98E2FB1F204DDF008DE4BF = {
 			isa = PBXGroup;
 			children = (
 				4C98E3061F204DDF008DE4BF /* ChartTest */,
 				4C98E3051F204DDF008DE4BF /* Products */,
+				4C2C4DB4B7FA458C6750C177 /* Pods */,
+				74C487099E9F93BBFDCA5D14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +74,21 @@
 			children = (
 				4C98E3071F204DDF008DE4BF /* AppDelegate.swift */,
 				4C98E3091F204DDF008DE4BF /* ViewController.swift */,
+				4C5B25A61F205B9600E02F97 /* Coin.swift */,
 				4C98E30B1F204DDF008DE4BF /* Main.storyboard */,
 				4C98E30E1F204DDF008DE4BF /* Assets.xcassets */,
 				4C98E3101F204DDF008DE4BF /* LaunchScreen.storyboard */,
 				4C98E3131F204DDF008DE4BF /* Info.plist */,
 			);
 			path = ChartTest;
+			sourceTree = "<group>";
+		};
+		74C487099E9F93BBFDCA5D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1BD32E2C72B93BCA582E934 /* Pods_ChartTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C98E3161F204DDF008DE4BF /* Build configuration list for PBXNativeTarget "ChartTest" */;
 			buildPhases = (
+				9AC0EF96B0511EF29FD7E531 /* [CP] Check Pods Manifest.lock */,
 				4C98E3001F204DDF008DE4BF /* Sources */,
 				4C98E3011F204DDF008DE4BF /* Frameworks */,
 				4C98E3021F204DDF008DE4BF /* Resources */,
+				5C2112856719EA50D5735262 /* [CP] Embed Pods Frameworks */,
+				93E04B3330C85A76EC761E05 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +161,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C2112856719EA50D5735262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartTest/Pods-ChartTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E04B3330C85A76EC761E05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartTest/Pods-ChartTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC0EF96B0511EF29FD7E531 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C98E3001F204DDF008DE4BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4C98E30A1F204DDF008DE4BF /* ViewController.swift in Sources */,
+				4C5B25A71F205B9600E02F97 /* Coin.swift in Sources */,
 				4C98E3081F204DDF008DE4BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +339,9 @@
 		};
 		4C98E3171F204DDF008DE4BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BF51D8284CC415B6308E5C /* Pods-ChartTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChartTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,7 +353,9 @@
 		};
 		4C98E3181F204DDF008DE4BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D77F52A5131BAC1FA2D015D8 /* Pods-ChartTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChartTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -301,6 +384,7 @@
 				4C98E3181F204DDF008DE4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

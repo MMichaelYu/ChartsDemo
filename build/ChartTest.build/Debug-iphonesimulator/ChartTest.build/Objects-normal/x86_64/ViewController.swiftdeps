@@ -1,0 +1,985 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C9ChartTest14ViewController"
+provides-member:
+- ["C9ChartTest14ViewController", ""]
+provides-dynamic-lookup:
+- "btnAddTapped"
+- "didReceiveMemoryWarning"
+- "pieView"
+- "tfName"
+- "tfValue"
+- "updateChartWithData"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "..<"
+- !private "/"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CGFloat"
+- "Coin"
+- !private "Double"
+- !private "NSError"
+- !private "NumberFormatter"
+- !private "PieChartData"
+- !private "PieChartDataEntry"
+- !private "PieChartDataSet"
+- "PieChartView"
+- !private "Realm"
+- "Results"
+- !private "StringLiteralType"
+- "UIButton"
+- !private "UIColor"
+- "UITextField"
+- "UIViewController"
+- "ViewController"
+- !private "arc4random_uniform"
+- !private "fatalError"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["P10RealmSwift11AddableType", "init"]
+- !private ["P10RealmSwift11AddableType", "intValue"]
+- !private ["P6Charts16AnimatorDelegate", "data"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "Coin"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "NumberFormatter"]
+- !private ["Ps9AnyObject", "PieChartData"]
+- !private ["Ps9AnyObject", "PieChartDataEntry"]
+- !private ["Ps9AnyObject", "PieChartDataSet"]
+- !private ["Ps9AnyObject", "Realm"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "arc4random_uniform"]
+- !private ["Ps9AnyObject", "colors"]
+- !private ["Ps9AnyObject", "count"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "endEditing"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "getCoinsFromDatabase"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "intValue"]
+- !private ["Ps9AnyObject", "localizedDescription"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "number"]
+- !private ["Ps9AnyObject", "objects"]
+- !private ["Ps9AnyObject", "pieView"]
+- !private ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "tfName"]
+- !private ["Ps9AnyObject", "tfValue"]
+- !private ["Ps9AnyObject", "updateChartWithData"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "data"]
+- !private ["PSo15CALayerDelegate", "endEditing"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "Coin"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "NumberFormatter"]
+- !private ["Ps7CVarArg", "PieChartData"]
+- !private ["Ps7CVarArg", "PieChartDataEntry"]
+- !private ["Ps7CVarArg", "PieChartDataSet"]
+- !private ["Ps7CVarArg", "Realm"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "arc4random_uniform"]
+- !private ["Ps7CVarArg", "colors"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "endEditing"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps7CVarArg", "getCoinsFromDatabase"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "intValue"]
+- !private ["Ps7CVarArg", "localizedDescription"]
+- !private ["Ps7CVarArg", "name"]
+- !private ["Ps7CVarArg", "number"]
+- !private ["Ps7CVarArg", "pieView"]
+- !private ["Ps7CVarArg", "save"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "tfName"]
+- !private ["Ps7CVarArg", "tfValue"]
+- !private ["Ps7CVarArg", "updateChartWithData"]
+- !private ["Ps7CVarArg", "view"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["C6Charts16ChartBaseDataSet", "colors"]
+- !private ["C6Charts9ChartData", "init"]
+- !private ["P6Charts17ChartDataProvider", "data"]
+- !private ["C6Charts12ChartDataSet", "colors"]
+- !private ["C6Charts13ChartViewBase", "data"]
+- !private ["C9ChartTest4Coin", "count"]
+- !private ["C9ChartTest4Coin", "init"]
+- !private ["C9ChartTest4Coin", "name"]
+- !private ["C9ChartTest4Coin", "save"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "Coin"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "NumberFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "PieChartData"]
+- !private ["Ps28CustomDebugStringConvertible", "PieChartDataEntry"]
+- !private ["Ps28CustomDebugStringConvertible", "PieChartDataSet"]
+- !private ["Ps28CustomDebugStringConvertible", "Realm"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "arc4random_uniform"]
+- !private ["Ps28CustomDebugStringConvertible", "colors"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "endEditing"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "getCoinsFromDatabase"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "intValue"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "number"]
+- !private ["Ps28CustomDebugStringConvertible", "pieView"]
+- !private ["Ps28CustomDebugStringConvertible", "save"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "tfName"]
+- !private ["Ps28CustomDebugStringConvertible", "tfValue"]
+- !private ["Ps28CustomDebugStringConvertible", "updateChartWithData"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "Coin"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "NumberFormatter"]
+- !private ["Ps23CustomStringConvertible", "PieChartData"]
+- !private ["Ps23CustomStringConvertible", "PieChartDataEntry"]
+- !private ["Ps23CustomStringConvertible", "PieChartDataSet"]
+- !private ["Ps23CustomStringConvertible", "Realm"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "arc4random_uniform"]
+- !private ["Ps23CustomStringConvertible", "colors"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "endEditing"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "getCoinsFromDatabase"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "intValue"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "number"]
+- !private ["Ps23CustomStringConvertible", "pieView"]
+- !private ["Ps23CustomStringConvertible", "save"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "tfName"]
+- !private ["Ps23CustomStringConvertible", "tfValue"]
+- !private ["Ps23CustomStringConvertible", "updateChartWithData"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "Coin"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "NumberFormatter"]
+- !private ["Ps9Equatable", "PieChartData"]
+- !private ["Ps9Equatable", "PieChartDataEntry"]
+- !private ["Ps9Equatable", "PieChartDataSet"]
+- !private ["Ps9Equatable", "Realm"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "arc4random_uniform"]
+- !private ["Ps9Equatable", "colors"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "endEditing"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "getCoinsFromDatabase"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "intValue"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "number"]
+- !private ["Ps9Equatable", "objects"]
+- !private ["Ps9Equatable", "pieView"]
+- !private ["Ps9Equatable", "save"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "tfName"]
+- !private ["Ps9Equatable", "tfValue"]
+- !private ["Ps9Equatable", "updateChartWithData"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "intValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "intValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "intValue"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["CSo9Formatter", "init"]
+- !private ["CSo9Formatter", "number"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "Coin"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "NumberFormatter"]
+- !private ["Ps8Hashable", "PieChartData"]
+- !private ["Ps8Hashable", "PieChartDataEntry"]
+- !private ["Ps8Hashable", "PieChartDataSet"]
+- !private ["Ps8Hashable", "Realm"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "arc4random_uniform"]
+- !private ["Ps8Hashable", "colors"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "endEditing"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "getCoinsFromDatabase"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "intValue"]
+- !private ["Ps8Hashable", "localizedDescription"]
+- !private ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "number"]
+- !private ["Ps8Hashable", "pieView"]
+- !private ["Ps8Hashable", "save"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "tfName"]
+- !private ["Ps8Hashable", "tfValue"]
+- !private ["Ps8Hashable", "updateChartWithData"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["P6Charts13IChartDataSet", "colors"]
+- !private ["P6Charts13IChartDataSet", "init"]
+- !private ["P6Charts16IPieChartDataSet", "colors"]
+- !private ["P6Charts16IPieChartDataSet", "init"]
+- !private ["Ps22LazyCollectionProtocol", "count"]
+- !private ["Ps22LazyCollectionProtocol", "subscript"]
+- !private ["Ps20LazySequenceProtocol", "count"]
+- !private ["Ps20LazySequenceProtocol", "subscript"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["P10RealmSwift10MinMaxType", "init"]
+- !private ["P10RealmSwift10MinMaxType", "intValue"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "Coin"]
+- !private ["PSo8NSCoding", "Double"]
+- !private ["PSo8NSCoding", "NumberFormatter"]
+- !private ["PSo8NSCoding", "PieChartData"]
+- !private ["PSo8NSCoding", "PieChartDataEntry"]
+- !private ["PSo8NSCoding", "PieChartDataSet"]
+- !private ["PSo8NSCoding", "Realm"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "arc4random_uniform"]
+- !private ["PSo8NSCoding", "data"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "endEditing"]
+- !private ["PSo8NSCoding", "fatalError"]
+- !private ["PSo8NSCoding", "getCoinsFromDatabase"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "intValue"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo8NSCoding", "number"]
+- !private ["PSo8NSCoding", "pieView"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "tfName"]
+- !private ["PSo8NSCoding", "tfValue"]
+- !private ["PSo8NSCoding", "updateChartWithData"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "intValue"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "number"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["PSo26NSExtensionRequestHandling", "CGFloat"]
+- !private ["PSo26NSExtensionRequestHandling", "Coin"]
+- !private ["PSo26NSExtensionRequestHandling", "Double"]
+- !private ["PSo26NSExtensionRequestHandling", "NumberFormatter"]
+- !private ["PSo26NSExtensionRequestHandling", "PieChartData"]
+- !private ["PSo26NSExtensionRequestHandling", "PieChartDataEntry"]
+- !private ["PSo26NSExtensionRequestHandling", "PieChartDataSet"]
+- !private ["PSo26NSExtensionRequestHandling", "Realm"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "arc4random_uniform"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "fatalError"]
+- !private ["PSo26NSExtensionRequestHandling", "getCoinsFromDatabase"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "pieView"]
+- !private ["PSo26NSExtensionRequestHandling", "tfName"]
+- !private ["PSo26NSExtensionRequestHandling", "tfValue"]
+- !private ["PSo26NSExtensionRequestHandling", "updateChartWithData"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "count"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSNumber", "intValue"]
+- !private ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "Coin"]
+- !private ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NumberFormatter"]
+- !private ["CSo8NSObject", "PieChartData"]
+- !private ["CSo8NSObject", "PieChartDataEntry"]
+- !private ["CSo8NSObject", "PieChartDataSet"]
+- ["CSo8NSObject", "PieChartView"]
+- !private ["CSo8NSObject", "Realm"]
+- ["CSo8NSObject", "Results"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "arc4random_uniform"]
+- ["CSo8NSObject", "btnAddTapped"]
+- !private ["CSo8NSObject", "colors"]
+- !private ["CSo8NSObject", "count"]
+- !private ["CSo8NSObject", "data"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "endEditing"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "getCoinsFromDatabase"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "intValue"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- !private ["CSo8NSObject", "name"]
+- !private ["CSo8NSObject", "number"]
+- ["CSo8NSObject", "pieView"]
+- !private ["CSo8NSObject", "save"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "tfName"]
+- ["CSo8NSObject", "tfValue"]
+- ["CSo8NSObject", "updateChartWithData"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "Coin"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "NumberFormatter"]
+- !private ["PSo16NSObjectProtocol", "PieChartData"]
+- !private ["PSo16NSObjectProtocol", "PieChartDataEntry"]
+- !private ["PSo16NSObjectProtocol", "PieChartDataSet"]
+- !private ["PSo16NSObjectProtocol", "Realm"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "arc4random_uniform"]
+- !private ["PSo16NSObjectProtocol", "colors"]
+- !private ["PSo16NSObjectProtocol", "count"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "endEditing"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "getCoinsFromDatabase"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "intValue"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- !private ["PSo16NSObjectProtocol", "number"]
+- !private ["PSo16NSObjectProtocol", "pieView"]
+- !private ["PSo16NSObjectProtocol", "save"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "tfName"]
+- !private ["PSo16NSObjectProtocol", "tfValue"]
+- !private ["PSo16NSObjectProtocol", "updateChartWithData"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "intValue"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["CSo8NSString", "init"]
+- !private ["C6Charts8NSUIView", "data"]
+- !private ["CSo7NSValue", "intValue"]
+- !private ["CSo15NumberFormatter", "init"]
+- !private ["CSo15NumberFormatter", "number"]
+- !private ["C10RealmSwift6Object", "count"]
+- !private ["C10RealmSwift6Object", "init"]
+- !private ["C10RealmSwift6Object", "name"]
+- !private ["C10RealmSwift6Object", "save"]
+- !private ["C6Charts12PieChartData", "init"]
+- !private ["C6Charts17PieChartDataEntry", "init"]
+- !private ["C6Charts15PieChartDataSet", "colors"]
+- !private ["C6Charts15PieChartDataSet", "init"]
+- !private ["C6Charts12PieChartView", "data"]
+- !private ["C6Charts21PieRadarChartViewBase", "data"]
+- !private ["PSo7RLMBool", "intValue"]
+- !private ["PSo9RLMDouble", "intValue"]
+- !private ["PSo8RLMFloat", "intValue"]
+- !private ["PSo6RLMInt", "intValue"]
+- !private ["CSo13RLMObjectBase", "count"]
+- !private ["CSo13RLMObjectBase", "init"]
+- !private ["CSo13RLMObjectBase", "name"]
+- !private ["CSo13RLMObjectBase", "save"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["C10RealmSwift5Realm", "init"]
+- !private ["C10RealmSwift5Realm", "objects"]
+- !private ["P10RealmSwift15RealmCollection", "count"]
+- !private ["P10RealmSwift15RealmCollection", "subscript"]
+- !private ["P10RealmSwift17RealmOptionalType", "_getBuiltinLogicValue"]
+- !private ["P10RealmSwift17RealmOptionalType", "init"]
+- !private ["C10RealmSwift7Results", "count"]
+- !private ["C10RealmSwift7Results", "subscript"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "data"]
+- !private ["PSo29UIAccessibilityIdentification", "endEditing"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "data"]
+- !private ["PSo12UIAppearance", "endEditing"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "CGFloat"]
+- !private ["PSo21UIAppearanceContainer", "Coin"]
+- !private ["PSo21UIAppearanceContainer", "Double"]
+- !private ["PSo21UIAppearanceContainer", "NumberFormatter"]
+- !private ["PSo21UIAppearanceContainer", "PieChartData"]
+- !private ["PSo21UIAppearanceContainer", "PieChartDataEntry"]
+- !private ["PSo21UIAppearanceContainer", "PieChartDataSet"]
+- !private ["PSo21UIAppearanceContainer", "Realm"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "arc4random_uniform"]
+- !private ["PSo21UIAppearanceContainer", "data"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "endEditing"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- !private ["PSo21UIAppearanceContainer", "getCoinsFromDatabase"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "pieView"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "tfName"]
+- !private ["PSo21UIAppearanceContainer", "tfValue"]
+- !private ["PSo21UIAppearanceContainer", "updateChartWithData"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "init"]
+- !private ["PSo18UIContentContainer", "CGFloat"]
+- !private ["PSo18UIContentContainer", "Coin"]
+- !private ["PSo18UIContentContainer", "Double"]
+- !private ["PSo18UIContentContainer", "NumberFormatter"]
+- !private ["PSo18UIContentContainer", "PieChartData"]
+- !private ["PSo18UIContentContainer", "PieChartDataEntry"]
+- !private ["PSo18UIContentContainer", "PieChartDataSet"]
+- !private ["PSo18UIContentContainer", "Realm"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "arc4random_uniform"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "fatalError"]
+- !private ["PSo18UIContentContainer", "getCoinsFromDatabase"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "pieView"]
+- !private ["PSo18UIContentContainer", "tfName"]
+- !private ["PSo18UIContentContainer", "tfValue"]
+- !private ["PSo18UIContentContainer", "updateChartWithData"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "data"]
+- !private ["PSo17UICoordinateSpace", "endEditing"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "data"]
+- !private ["PSo13UIDynamicItem", "endEditing"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "CGFloat"]
+- !private ["PSo18UIFocusEnvironment", "Coin"]
+- !private ["PSo18UIFocusEnvironment", "Double"]
+- !private ["PSo18UIFocusEnvironment", "NumberFormatter"]
+- !private ["PSo18UIFocusEnvironment", "PieChartData"]
+- !private ["PSo18UIFocusEnvironment", "PieChartDataEntry"]
+- !private ["PSo18UIFocusEnvironment", "PieChartDataSet"]
+- !private ["PSo18UIFocusEnvironment", "Realm"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "arc4random_uniform"]
+- !private ["PSo18UIFocusEnvironment", "data"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "endEditing"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- !private ["PSo18UIFocusEnvironment", "getCoinsFromDatabase"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "pieView"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "tfName"]
+- !private ["PSo18UIFocusEnvironment", "tfValue"]
+- !private ["PSo18UIFocusEnvironment", "updateChartWithData"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "data"]
+- !private ["PSo11UIFocusItem", "endEditing"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "Coin"]
+- !private ["CSo11UIResponder", "Double"]
+- !private ["CSo11UIResponder", "NSError"]
+- !private ["CSo11UIResponder", "NumberFormatter"]
+- !private ["CSo11UIResponder", "PieChartData"]
+- !private ["CSo11UIResponder", "PieChartDataEntry"]
+- !private ["CSo11UIResponder", "PieChartDataSet"]
+- ["CSo11UIResponder", "PieChartView"]
+- !private ["CSo11UIResponder", "Realm"]
+- ["CSo11UIResponder", "Results"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "arc4random_uniform"]
+- ["CSo11UIResponder", "btnAddTapped"]
+- !private ["CSo11UIResponder", "data"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "endEditing"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "getCoinsFromDatabase"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "pieView"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "tfName"]
+- ["CSo11UIResponder", "tfValue"]
+- ["CSo11UIResponder", "updateChartWithData"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "CGFloat"]
+- !private ["PSo30UIResponderStandardEditActions", "Coin"]
+- !private ["PSo30UIResponderStandardEditActions", "Double"]
+- !private ["PSo30UIResponderStandardEditActions", "NumberFormatter"]
+- !private ["PSo30UIResponderStandardEditActions", "PieChartData"]
+- !private ["PSo30UIResponderStandardEditActions", "PieChartDataEntry"]
+- !private ["PSo30UIResponderStandardEditActions", "PieChartDataSet"]
+- !private ["PSo30UIResponderStandardEditActions", "Realm"]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "arc4random_uniform"]
+- !private ["PSo30UIResponderStandardEditActions", "data"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "endEditing"]
+- !private ["PSo30UIResponderStandardEditActions", "fatalError"]
+- !private ["PSo30UIResponderStandardEditActions", "getCoinsFromDatabase"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "pieView"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "tfName"]
+- !private ["PSo30UIResponderStandardEditActions", "tfValue"]
+- !private ["PSo30UIResponderStandardEditActions", "updateChartWithData"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "CGFloat"]
+- !private ["PSo16UIStateRestoring", "Coin"]
+- !private ["PSo16UIStateRestoring", "Double"]
+- !private ["PSo16UIStateRestoring", "NumberFormatter"]
+- !private ["PSo16UIStateRestoring", "PieChartData"]
+- !private ["PSo16UIStateRestoring", "PieChartDataEntry"]
+- !private ["PSo16UIStateRestoring", "PieChartDataSet"]
+- !private ["PSo16UIStateRestoring", "Realm"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "arc4random_uniform"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "fatalError"]
+- !private ["PSo16UIStateRestoring", "getCoinsFromDatabase"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "pieView"]
+- !private ["PSo16UIStateRestoring", "tfName"]
+- !private ["PSo16UIStateRestoring", "tfValue"]
+- !private ["PSo16UIStateRestoring", "updateChartWithData"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "CGFloat"]
+- !private ["PSo18UITraitEnvironment", "Coin"]
+- !private ["PSo18UITraitEnvironment", "Double"]
+- !private ["PSo18UITraitEnvironment", "NumberFormatter"]
+- !private ["PSo18UITraitEnvironment", "PieChartData"]
+- !private ["PSo18UITraitEnvironment", "PieChartDataEntry"]
+- !private ["PSo18UITraitEnvironment", "PieChartDataSet"]
+- !private ["PSo18UITraitEnvironment", "Realm"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "arc4random_uniform"]
+- !private ["PSo18UITraitEnvironment", "data"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "endEditing"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- !private ["PSo18UITraitEnvironment", "getCoinsFromDatabase"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "pieView"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "tfName"]
+- !private ["PSo18UITraitEnvironment", "tfValue"]
+- !private ["PSo18UITraitEnvironment", "updateChartWithData"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "data"]
+- !private ["CSo6UIView", "endEditing"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "CGFloat"]
+- ["CSo16UIViewController", "Coin"]
+- !private ["CSo16UIViewController", "Double"]
+- !private ["CSo16UIViewController", "NSError"]
+- !private ["CSo16UIViewController", "NumberFormatter"]
+- !private ["CSo16UIViewController", "PieChartData"]
+- !private ["CSo16UIViewController", "PieChartDataEntry"]
+- !private ["CSo16UIViewController", "PieChartDataSet"]
+- ["CSo16UIViewController", "PieChartView"]
+- !private ["CSo16UIViewController", "Realm"]
+- ["CSo16UIViewController", "Results"]
+- ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "UITextField"]
+- !private ["CSo16UIViewController", "arc4random_uniform"]
+- ["CSo16UIViewController", "btnAddTapped"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "fatalError"]
+- ["CSo16UIViewController", "getCoinsFromDatabase"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "pieView"]
+- ["CSo16UIViewController", "tfName"]
+- ["CSo16UIViewController", "tfValue"]
+- ["CSo16UIViewController", "updateChartWithData"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["C9ChartTest14ViewController", "CGFloat"]
+- ["C9ChartTest14ViewController", "Coin"]
+- !private ["C9ChartTest14ViewController", "Double"]
+- !private ["C9ChartTest14ViewController", "NSError"]
+- !private ["C9ChartTest14ViewController", "NumberFormatter"]
+- !private ["C9ChartTest14ViewController", "PieChartData"]
+- !private ["C9ChartTest14ViewController", "PieChartDataEntry"]
+- !private ["C9ChartTest14ViewController", "PieChartDataSet"]
+- ["C9ChartTest14ViewController", "PieChartView"]
+- !private ["C9ChartTest14ViewController", "Realm"]
+- ["C9ChartTest14ViewController", "Results"]
+- ["C9ChartTest14ViewController", "UIButton"]
+- !private ["C9ChartTest14ViewController", "UIColor"]
+- ["C9ChartTest14ViewController", "UITextField"]
+- !private ["C9ChartTest14ViewController", "arc4random_uniform"]
+- ["C9ChartTest14ViewController", "btnAddTapped"]
+- ["C9ChartTest14ViewController", "deinit"]
+- ["C9ChartTest14ViewController", "didReceiveMemoryWarning"]
+- !private ["C9ChartTest14ViewController", "fatalError"]
+- ["C9ChartTest14ViewController", "getCoinsFromDatabase"]
+- ["C9ChartTest14ViewController", "init"]
+- ["C9ChartTest14ViewController", "pieView"]
+- ["C9ChartTest14ViewController", "tfName"]
+- ["C9ChartTest14ViewController", "tfValue"]
+- ["C9ChartTest14ViewController", "updateChartWithData"]
+- !private ["C9ChartTest14ViewController", "view"]
+- ["C9ChartTest14ViewController", "viewDidLoad"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "data"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "endEditing"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "intValue"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "Coin"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "NumberFormatter"]
+- !private ["Ps9_Hashable", "PieChartData"]
+- !private ["Ps9_Hashable", "PieChartDataEntry"]
+- !private ["Ps9_Hashable", "PieChartDataSet"]
+- !private ["Ps9_Hashable", "Realm"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "arc4random_uniform"]
+- !private ["Ps9_Hashable", "colors"]
+- !private ["Ps9_Hashable", "count"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "endEditing"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "getCoinsFromDatabase"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "intValue"]
+- !private ["Ps9_Hashable", "localizedDescription"]
+- !private ["Ps9_Hashable", "name"]
+- !private ["Ps9_Hashable", "number"]
+- !private ["Ps9_Hashable", "pieView"]
+- !private ["Ps9_Hashable", "save"]
+- !private ["Ps9_Hashable", "subscript"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "tfName"]
+- !private ["Ps9_Hashable", "tfValue"]
+- !private ["Ps9_Hashable", "updateChartWithData"]
+- !private ["Ps9_Hashable", "view"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "P10RealmSwift11AddableType"
+- !private "P6Charts16AnimatorDelegate"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- !private "C6Charts16ChartBaseDataSet"
+- !private "C6Charts9ChartData"
+- !private "P6Charts17ChartDataProvider"
+- !private "C6Charts12ChartDataSet"
+- !private "C6Charts13ChartViewBase"
+- !private "C9ChartTest4Coin"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "CSo9Formatter"
+- "Ps8Hashable"
+- !private "P6Charts13IChartDataSet"
+- !private "P6Charts16IPieChartDataSet"
+- !private "Ps22LazyCollectionProtocol"
+- !private "Ps20LazySequenceProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "P10RealmSwift10MinMaxType"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C6Charts8NSUIView"
+- !private "CSo7NSValue"
+- !private "CSo15NumberFormatter"
+- !private "C10RealmSwift6Object"
+- !private "C6Charts12PieChartData"
+- !private "C6Charts17PieChartDataEntry"
+- !private "C6Charts15PieChartDataSet"
+- !private "C6Charts12PieChartView"
+- !private "C6Charts21PieRadarChartViewBase"
+- !private "PSo7RLMBool"
+- !private "PSo9RLMDouble"
+- !private "PSo8RLMFloat"
+- !private "PSo6RLMInt"
+- !private "CSo13RLMObjectBase"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "C10RealmSwift5Realm"
+- !private "P10RealmSwift15RealmCollection"
+- !private "P10RealmSwift17RealmOptionalType"
+- !private "C10RealmSwift7Results"
+- !private "Ps8Sequence"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C9ChartTest14ViewController"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermissionChange.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
+- "/Users/michael/Desktop/Buildcoin/ChartTest/build/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+interface-hash: "30584d1a621086bc8d90fc9fcfed4a4a"

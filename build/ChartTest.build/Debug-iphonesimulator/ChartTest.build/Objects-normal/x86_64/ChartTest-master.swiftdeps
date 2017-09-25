@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "7870ff94fce6cc951636cb84d09a1a0d"
+build_time: [554544875, 843285000]
+inputs:
+  "/Users/michael/Desktop/Buildcoin/ChartTest/ChartTest/ViewController.swift": [553923046, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Coin.swift": [553839039, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/ChartTest/AppDelegate.swift": [553833183, 0]

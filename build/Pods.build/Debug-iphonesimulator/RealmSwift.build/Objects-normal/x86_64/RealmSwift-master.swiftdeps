@@ -1,0 +1,22 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "fb14744bd6c033fe09e45965f7819550"
+build_time: [553836540, 653031000]
+inputs:
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Aliases.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Error.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/LinkingObjects.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/List.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Migration.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Object.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/ObjectSchema.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Optional.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Property.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Realm.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/RealmCollection.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/RealmConfiguration.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Results.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Schema.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/SortDescriptor.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/SwiftVersion.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Sync.swift": [9223372036854775807, 0]
+  "/Users/michael/Desktop/Buildcoin/ChartTest/Pods/RealmSwift/RealmSwift/Util.swift": [9223372036854775807, 0]
